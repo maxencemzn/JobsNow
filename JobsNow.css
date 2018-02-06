@@ -5,6 +5,14 @@ html {
   font-family: calibri;
 }
 
+html, body {
+	margin: 0;
+	padding : 0;
+	outline: 0;
+	height: 100%;
+	width: %;
+}
+
 /* Liens du menu */
 
 .topnav {
@@ -30,6 +38,12 @@ html {
 .active {
     background-color: #4CAF50;
     color: white;
+}
+
+/* Photo équipe */
+
+#photoEquipe {
+	align-content: center;
 }
 
 /* Footer */
