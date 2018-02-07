@@ -1,92 +1,269 @@
-/* Couleur de fond */
+/* CSS COMMUN AUX PAGES */
 
-html { 
-  background: #f1f2f6; 
-  font-family: calibri;
-}
+    /* Contenu du site */
 
-html, body {
-	margin: 0;
-	padding : 0;
-	outline: 0;
-	height: 100%;
-	width: %;
-}
+        html { 
+          background: #f1f2f6; 
+          font-family: calibri;
+        }
 
-/* Liens du menu */
+        html, body {
+        	margin: 0;
+        	padding : 0;
+        	outline: 0;
+        	height: 100%;
+        	width: %;
+        }
 
-header {
-    background-color: #333;
-    overflow: hidden;
-}
+    /* Barre de navigation */
 
-header a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+        header {
+            background-color: #191B0F;
+            overflow: hidden;
+        }
 
-header a:hover {
-    background-color: #ddd;
-    color: black;
-}
+        header a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
 
-.active {
-    background-color: #4CAF50;
-    color: white;
-}
+        header a:hover {
+            background-color: #ddd;
+            color: black;
+        }
 
-/* Photo JN */
+        .active {
+            background-color: #4CAF50;
+            color: white;
+        }
 
-#photoJN {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;
-}
+    /* Footer */
 
-/* Présentation JN */
+        footer {
+            background-color: #191B0F;
+            overflow: hidden;
+            margin-bottom: 0px;
+            display:flex;
+            justify-content: center;
 
-#divPresentationJN {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    text-align : center;
-}
+        }
 
-/* Présentation de l'équipe */
+        footer a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+            font-size: 17px;
+        }
 
-#divEquipe {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 80%;
-    text-align : center;
-}
+/* CSS PAGE 1 : ACCUEIL */
 
-.membreEquipe {
-    display: flex;
-}
+    /* Présentation Jobs Now */
 
-/* Footer */
+        #divPresentationJN {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 80%;
+            text-align : center;
+        }
 
-footer {
-    background-color: #333;
-    overflow: hidden;
-    margin-bottom: 0px;
-}
+        #photoJN {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
 
-footer a {
-    float: left;
-    display: block;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-}
+    /* Présentation de l'équipe */
+
+        #divEquipe {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            width: 80%;
+            text-align : center;
+        }
+
+        #membresEquipe {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap : wrap;
+        }
+
+        .membreEquipe {
+            width: 200px;
+            height : 200px;
+        }
+
+        .logoMembre {
+            width: 150px;
+            height: 150px;
+        }
+
+/* CSS PAGE 2 : ANNONCES */
+
+    /* Annonces */
+
+        #divAnnonces {
+            margin-right: auto;
+            margin-left : auto;
+            width: 60%;
+        }
+
+        #divAnnonces h1 {
+            text-align: center;
+        }
+
+        .divAnnonce {
+            background-color: white;
+            border-width: 2px;
+            border-style: solid;
+            border-color: #F9B129;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 10px;
+        }
+
+        .divAnnonce h3 {
+            text-align: center;
+        }
+
+/* CSS PAGE 3 : PARTENAIRES */
+
+    /* Partenaires */
+
+        #divPartenaires {
+            margin-right: auto;
+            margin-left : auto;
+            width: 60%;
+        }
+
+        #divPartenaires h1 {
+            text-align: center;
+        }
+
+        .divPartenaire {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .descriptionPartenaire {
+            background-color: white;
+            border-width: 2px;
+            border-color: #F9B129;
+            border-style: solid;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            width: 70%;
+        }
+
+        .logoPartenaire {
+            width: 100px;
+            height: 100px;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-width: 2px;
+            border-color: #F9B129;
+            border-style: solid;
+            border-radius: 10px;
+        }
+
+/* CSS PAGE 4 : TEMOIGNAGES */
+
+    /* Témoignages */
+
+        #divTemoignages {
+            margin-right: auto;
+            margin-left : auto;
+            width: 60%;
+        }
+
+        #divTemoignages h1 {
+            text-align: center;
+        }
+
+        .divTemoignage {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .texteTemoignage {
+            background-color: white;
+            border-width: 2px;
+            border-color: #F9B129;
+            border-style: solid;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 10px;
+            width: 70%;
+        }
+
+        .photoTemoin {
+            width: 100px;
+            height: 100px;
+            margin-top: auto;
+            margin-bottom: auto;
+            margin-left: 10px;
+            margin-right: 10px;
+            border-width: 2px;
+            border-color: #F9B129;
+            border-style: solid;
+            border-radius: 10px;
+        }
+
+        .texteTemoignage {
+        }
+
+/* CSS PAGE 5 : NOUS CONTACTER */
+
+    /* Contact */
+
+        #divContact {
+            text-align: center;
+        }
+
+        .input {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+
+/* CSS PAGE 6 : CONNEXION/INSCRIPTION */
+
+    /* Commun */
+
+        .formulaireCompte {
+            display: flex;
+            flex-direction: column;
+            margin-left: auto;
+            margin-right: auto;
+            margin-bottom: 50px;
+            width: 60%;
+        }
+    /* Se connecter */
+
+        #divConnexion {
+            text-align: center;     
+        }
+
+    /* S'inscrire */
+
+        #divInscription {
+            text-align: center;
+        }
