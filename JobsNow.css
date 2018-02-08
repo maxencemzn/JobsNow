@@ -20,6 +20,18 @@
         header {
             background-color: #191B0F;
             overflow: hidden;
+            height : 60px;
+        }
+
+        #divLogoJobsNow {
+            width: 10px;
+            height: 10px;
+        }
+
+        #logoJobsNow {
+            width: 40px;
+            height: 40px;
+
         }
 
         header a {
@@ -27,9 +39,11 @@
             display: block;
             color: #f2f2f2;
             text-align: center;
+            line-height: 30px;
             padding: 14px 16px;
             text-decoration: none;
             font-size: 17px;
+            height: 60px;
         }
 
         header a:hover {
@@ -62,6 +76,41 @@
             text-decoration: none;
             font-size: 17px;
         }
+
+        /* Formulaires */
+
+            .divFormulaire {
+            text-align: center;
+            }
+
+            .formulaire {
+                display: flex;
+                flex-direction: column;
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 50px;
+                width: 250px;
+            }
+
+            .input {
+                margin-bottom: 20px;
+                border-radius: 5px;
+                border : grey;
+                border-style: solid;
+                border-width: 1px;
+                padding: 5px;
+            }
+
+            .inputButton {
+                margin-left: auto;
+                margin-right: auto;
+                border-radius: 5px;
+                color: white;
+                background-color: #F9B129;
+                border : none;
+                width: 100px;
+                padding: 8px;
+            }
 
 /* CSS PAGE 1 : ACCUEIL */
 
@@ -127,7 +176,7 @@
 
         .divAnnonce {
             background-color: white;
-            border-width: 2px;
+            border-width: 1px;
             border-style: solid;
             border-color: #F9B129;
             margin-top: 20px;
@@ -161,7 +210,7 @@
 
         .descriptionPartenaire {
             background-color: white;
-            border-width: 2px;
+            border-width: 1px;
             border-color: #F9B129;
             border-style: solid;
             margin-top: 10px;
@@ -178,7 +227,7 @@
             margin-bottom: auto;
             margin-left: 10px;
             margin-right: 10px;
-            border-width: 2px;
+            border-width: 1px;
             border-color: #F9B129;
             border-style: solid;
             border-radius: 10px;
@@ -205,7 +254,7 @@
 
         .texteTemoignage {
             background-color: white;
-            border-width: 2px;
+            border-width: 1px;
             border-color: #F9B129;
             border-style: solid;
             margin-top: 10px;
@@ -222,7 +271,7 @@
             margin-bottom: auto;
             margin-left: 10px;
             margin-right: 10px;
-            border-width: 2px;
+            border-width: 1px;
             border-color: #F9B129;
             border-style: solid;
             border-radius: 10px;
@@ -233,37 +282,8 @@
 
 /* CSS PAGE 5 : NOUS CONTACTER */
 
-    /* Contact */
 
-        #divContact {
-            text-align: center;
-        }
-
-        .input {
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
 
 /* CSS PAGE 6 : CONNEXION/INSCRIPTION */
 
-    /* Commun */
 
-        .formulaireCompte {
-            display: flex;
-            flex-direction: column;
-            margin-left: auto;
-            margin-right: auto;
-            margin-bottom: 50px;
-            width: 60%;
-        }
-    /* Se connecter */
-
-        #divConnexion {
-            text-align: center;     
-        }
-
-    /* S'inscrire */
-
-        #divInscription {
-            text-align: center;
-        }

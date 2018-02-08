@@ -20,7 +20,12 @@
 
 		<!-- Barre de navigation -->
 		<header>
-			<a href="Page1.JobsNow.html">JobsNow</a>
+			<a href="Page1.JobsNow.html">
+				<img src="logoYncrea.png" id="logoJobsNow" alt="Jobs Now">
+			</a>
+			<a href="Page1.JobsNow.html">
+				JobsNow
+			</a>
 			<a href="Page2.Annonces.html">Annonces</a>
 			<a href="Page3.Partenaires.html">Partenaires</a>
 			<a href="Page4.Temoignages.html">Temoignages</a>
@@ -29,15 +34,15 @@
 		</header>
 
 		<!-- Formulaire de contact -->
-		<div id="divContact">
+		<div class="divFormulaire">
 			<h1>Nous contacter</h1>
-			<form>
-				<input type="text" name="nom" value="Nom" class="input"><br>
-				<input type="text" name="prenom" value="Prénom" class="input"><br>
-				<input type="text" name="email" value="Email" class="input"><br>
-				<input type="text" name="statut" value="Statut (étudiant, professionnel, autre...)" class="input"><br>
-				<input type="text" name="message" value="Votre message ..." class="input"><br>
-				<input type="submit" name="envoyer" value="Envoyer" class="input">
+			<form class="formulaire">
+				<input type="text" name="nom" placeholder="Nom" class="input">
+				<input type="text" name="prenom" placeholder="Prénom" class="input">
+				<input type="text" name="email" placeholder="Email" class="input">
+				<input type="text" name="statut" placeholder="Statut (étudiant, professionnel, autre ...)" class="input">
+				<input type="text" name="message" placeholder="Votre message ..." class="input">
+				<input type="submit" name="connexion" placeholder="Se connecter" class="inputButton">
 			</form>
 		</div>
 
