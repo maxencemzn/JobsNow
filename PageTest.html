@@ -14,12 +14,23 @@
 
 	<!-- Javascript -->
 	<script type="text/javascript">
+
+		// Menu responsive 
+		function myFunction() {
+	    	var x = document.getElementById("myTopnav");
+	    	if (x.className === "topnav") {
+	       	 x.className += " responsive";
+	    	} else {
+	       	 	x.className = "topnav";
+	    	}
+		}
+		
 	</script>
 
 	<!-- Contenu du site -->
 
 		<!-- Barre de navigation -->
-		<div class="topnav" id="myTopnav">
+		<header class="topnav" id="myTopnav">
 			<a href="Page1.JobsNow.html">
 				<img src="images/logoYncrea.png" id="logoJobsNow" alt="Jobs Now">
 			</a>
@@ -30,7 +41,7 @@
 			<a href="Page5.NousContacter.html">Nous contacter</a>
 			<a style="float:right" href="Page6.SeConnecter.html">Se connecter</a>
 			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-		</div>
+		</header>
 
 		<!-- Photo équipe JN -->
 		<div id="divPhotoJN">
@@ -44,7 +55,7 @@
 				Timebantur Amphiarao vitae Marcio referente aurem vatibus conscii conscii in interdum citerioris citerioris imperator conscii inclitis parietes soli referente ministro aut penetrali soli ideoque parietes ideoque timebantur in aut parietes conscii siquid ut uxori aurem uxori postridie conscii citerioris in in ut conscii imperator Amphiarao citerioris quondam nullo disceret postridie ideoque conscii vitae inclitis uxori timebantur susurrasset inclitis disceret soli postridie referente in timebantur in citerioris vitae quondam in susurrasset conscii secreto secreto referente imperator conscii praesente in etiam Amphiarao ideoque interdum uxori uxori aut in velut praesente etiam aurem ut acciderat referente ideoque velut timebantur siquid nullo parietes conscii.
 				Timebantur Amphiarao vitae Marcio referente aurem vatibus conscii conscii in interdum citerioris citerioris imperator conscii inclitis parietes soli referente ministro aut penetrali soli ideoque parietes ideoque timebantur in aut parietes conscii siquid ut uxori aurem uxori postridie conscii citerioris in in ut conscii imperator Amphiarao citerioris quondam nullo disceret postridie ideoque conscii vitae inclitis uxori timebantur susurrasset inclitis disceret soli postridie referente in timebantur in citerioris vitae quondam in susurrasset conscii secreto secreto referente imperator conscii praesente in etiam Amphiarao ideoque interdum uxori uxori aut in velut praesente etiam aurem ut acciderat referente ideoque velut timebantur siquid nullo parietes conscii.
 			</p>
-			<button href="">Télécharger la plaquette</button>
+			<a href="">Telechargement de la plaquette</a>
 		</div>
 
 		<!-- Présentation de l'équipe -->
