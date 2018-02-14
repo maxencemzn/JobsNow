@@ -7,7 +7,7 @@
 	<meta charset="UTF-8">
 	<title>JobsNow - Connexion</title>
 	<link rel="stylesheet" href="JobsNow.css">
-	<link rel="icon" type="image/png" href="logoYncrea.png"/>
+	<link rel="icon" type="image/png" href="images/logoYncrea.png"/>
 </head>
 
 <body>
@@ -19,25 +19,24 @@
 	<!-- Contenu du site -->
 
 		<!-- Barre de navigation -->
-		<header>
+		<div class="topnav" id="myTopnav">
 			<a href="Page1.JobsNow.html">
-				<img src="logoYncrea.png" id="logoJobsNow" alt="Jobs Now">
+				<img src="images/logoYncrea.png" id="logoJobsNow" alt="Jobs Now">
 			</a>
-			<a href="Page1.JobsNow.html">
-				JobsNow
-			</a>
+			<a href="Page1.JobsNow.html">JobsNow</a>
 			<a href="Page2.Annonces.html">Annonces</a>
 			<a href="Page3.Partenaires.html">Partenaires</a>
-			<a href="Page4.Temoignages.html">Temoignages</a>
-			<a href="Page5.NousContacter.html">Nous Contacter</a>
-			<a style="float:right" href="Page6.SeConnecter.html">Se Connecter</a>
-		</header>
+			<a href="Page4.Temoignages.html">Témoignages</a>
+			<a href="Page5.NousContacter.html">Nous contacter</a>
+			<a style="float:right" href="Page6.SeConnecter.html">Se connecter</a>
+			<a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+		</div>
 
 		<!-- Se connecter -->
 		<div class="divFormulaire">
 			<h1>Se connecter</h1>
 			<form class="formulaire">
-				<input type="text" name="email" placeholder="Email" class="input">
+				<input type="email" name="email" placeholder="Email" class="input">
 				<input type="text" name="mdp" placeholder="Mot de passe" class="input">
 				<input type="submit" name="connexion" placeholder="Se connecter" class="inputButton">
 			</form>
@@ -50,8 +49,8 @@
 			<form class="formulaire">
 				<input type="text" name="nom" placeholder="Nom" class="input">
 				<input type="text" name="prenom" placeholder="Prénom" class="input">
-				<input type="text" name="email" placeholder="Email Yncréa" class="input">
-				<input type="text" name="naissance" placeholder="Date de naissance" class="input">
+				<input type="email" name="email" placeholder="Email Yncréa" class="input">
+				<input type="date" name="naissance" placeholder="Date de naissance" class="input">
 				<input type="text" name="adresse" placeholder="Adresse" class="input">
 				<input type="text" name="telephone" placeholder="Numéro de téléphone" class="input">
 				<input type="submit" name="inscription" placeholder="S'inscrire" class="inputButton">
@@ -60,8 +59,8 @@
 
 		<!-- Footer -->
 		<footer>
-			<a href="FacebookUrl">Facebook</a>
-			<a href="LinkedinUrl">Linkedins</a>
+			<a href="https://www.facebook.com/Jobs-Now-1662202004073313/">Facebook</a>
+			<a href="LinkedinUrl">LinkedIn</a>
 			<a href="Page5.NousContacter">Nous Contacter</a>
 			<a href="Page7.MentionsLegales.html">Mentions légales</a>
 		</footer>
