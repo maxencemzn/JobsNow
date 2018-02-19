@@ -24,8 +24,8 @@
         }
 
         #logoJobsNow {
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
         }
 
         .topnav a {
@@ -45,9 +45,6 @@
             color: black;
         }
 
-        .topnav .icon {
-            display: none;
-        }
 
     /* Footer */
 
@@ -138,6 +135,7 @@
             border : none;
             width: 200px;
             padding: 8px;
+            margin: 10px;
         }
 
     /* Présentation de l'équipe */
@@ -194,6 +192,12 @@
 
         .divAnnonce h3 {
             text-align: center;
+        }
+
+        .divBouton {
+                display: flex;
+                justify-content: space-around;
+                flex-wrap: wrap;
         }
 
 /* CSS PAGE 3 : PARTENAIRES */
@@ -289,9 +293,7 @@
 
 /* CSS PAGE 5 : NOUS CONTACTER */
 
-        .divFormulaire {
-            height: 100%;
-        }
+        
 
 
 
