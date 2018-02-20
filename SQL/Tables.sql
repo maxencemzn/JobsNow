@@ -1,3 +1,5 @@
+CREATE DATABASE jobsnow;
+
 DROP TABLE IF EXISTS `faire`;
 DROP TABLE IF EXISTS `annonce`;
 DROP TABLE IF EXISTS `utilisateur`;
