@@ -17,42 +17,45 @@
 	</script>
 
 	<!-- Contenu du site -->
+	<div class="ContenuSansFooter">
 
 		<!-- Barre de navigation -->
-	<div class="topnav" id="myTopnav" th:insert="~{Fragments::barre_navigation}"></div>
+		<div class="topnav" id="myTopnav" th:insert="~{Fragments::barre_navigation}"></div>
 
-		<!-- Se connecter -->
-		<div class="divFormulaire">
-			<h1>Se connecter</h1>
-			<form class="formulaire">
-				<input type="email" name="email" placeholder="Email" class="input">
-				<input type="text" name="mdp" placeholder="Mot de passe" class="input">
-				<input type="submit" name="connexion" placeholder="Se connecter" class="inputButton">
-			</form>
+			<!-- Se connecter -->
+			<div class="divFormulaire">
+				<h1>Se connecter</h1>
+				<form class="formulaire">
+					<input type="email" name="email" placeholder="Email" class="input">
+					<input type="text" name="mdp" placeholder="Mot de passe" class="input">
+					<input type="submit" name="connexion" placeholder="Se connecter" class="inputButton">
+				</form>
+			</div>
+
+
+			<!-- S'inscrire -->
+			<div class="divFormulaire">
+				<h1>S'inscrire</h1>
+				<form class="formulaire">
+					<input type="text" name="nom" placeholder="Nom" class="input">
+					<input type="text" name="prenom" placeholder="Prénom" class="input">
+					<input type="email" name="email" placeholder="Email Yncréa" class="input">
+					<input type="date" name="naissance" placeholder="Date de naissance" class="input">
+					<input type="text" name="adresse" placeholder="Adresse" class="input">
+					<input type="text" name="telephone" placeholder="Numéro de téléphone" class="input">
+					<input type="submit" name="inscription" placeholder="S'inscrire" class="inputButton">
+				</form>
+			</div>
 		</div>
+	</div>
 
-
-		<!-- S'inscrire -->
-		<div class="divFormulaire">
-			<h1>S'inscrire</h1>
-			<form class="formulaire">
-				<input type="text" name="nom" placeholder="Nom" class="input">
-				<input type="text" name="prenom" placeholder="Prénom" class="input">
-				<input type="email" name="email" placeholder="Email Yncréa" class="input">
-				<input type="date" name="naissance" placeholder="Date de naissance" class="input">
-				<input type="text" name="adresse" placeholder="Adresse" class="input">
-				<input type="text" name="telephone" placeholder="Numéro de téléphone" class="input">
-				<input type="submit" name="inscription" placeholder="S'inscrire" class="inputButton">
-			</form>
-		</div>
-
-		<!-- Footer -->
-		<footer>
-			<a href="https://www.facebook.com/Jobs-Now-1662202004073313/">Facebook</a>
-			<a href="LinkedinUrl">LinkedIn</a>
-			<a href="Page5.NousContacter.html">Nous Contacter</a>
-			<a href="Page7.MentionsLegales.html">Mentions légales</a>
-		</footer>
+	<!-- Footer -->
+	<footer>
+		<a href="https://www.facebook.com/Jobs-Now-1662202004073313/">Facebook</a>
+		<a href="LinkedinUrl">LinkedIn</a>
+		<a href="Page5.NousContacter.html">Nous Contacter</a>
+		<a href="Page7.MentionsLegales.html">Mentions légales</a>
+	</footer>
 
 </body>
 </html>
