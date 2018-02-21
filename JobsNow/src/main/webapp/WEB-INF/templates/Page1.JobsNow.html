@@ -1,80 +1,79 @@
 <!DOCTYPE html>
 <html xmlns:th="http://www.thymeleaf.org">
 
-<!-- Page d'accueil avec la présentation de l'asso -->
+	<head>
+		<meta charset="UTF-8">
+		<title>JobsNow - Accueil</title>
+		<link rel="stylesheet" href="JobsNow.css">
+		<link rel="icon" type="image/png" href="images/logoYncrea.png"/>
+	</head>
 
-<head>
-	<meta charset="UTF-8">
-	<title>JobsNow - Accueil</title>
-	<link rel="stylesheet" href="JobsNow.css">
-	<link rel="icon" type="image/png" href="images/logoYncrea.png"/>
-</head>
+	<body>
 
-<body>
+		<!-- Javascript -->
+		<script type="text/javascript">
+		</script>
 
-<!-- Javascript -->
-<script type="text/javascript">
-</script>
+		<!-- Contenu du site -->
+		<div class="ContenuSansFooter">
 
-<!-- Contenu du site -->
+			<!-- Barre de navigation -->
+			<div class="topnav" id="myTopnav" th:insert="~{Fragments::barre_navigation}"></div>
 
-<!-- Barre de navigation -->
-<div class="topnav" id="myTopnav" th:insert="~{Fragments::barre_navigation}"></div>
+			<!-- Photo équipe JN -->
+			<div id="divPhotoJN">
+				<img src="images/photoEquipe.jpg" id="photoJN" alt="Couverture">
+			</div>
 
-<!-- Photo équipe JN -->
-<div id="divPhotoJN">
-	<img src="images/photoEquipe.jpg" id="photoJN" alt="Couverture">
-</div>
+			<!-- Présentation de Jobs Now -->
+			<div id="divPresentationJN">
+				<h1>Présentation de Jobs Now</h1>
+				<p>
+					Timebantur Amphiarao vitae Marcio referente aurem vatibus conscii conscii in interdum citerioris citerioris imperator conscii inclitis parietes soli referente ministro aut penetrali soli ideoque parietes ideoque timebantur in aut parietes conscii siquid ut uxori aurem uxori postridie conscii citerioris in in ut conscii imperator Amphiarao citerioris quondam nullo disceret postridie ideoque conscii vitae inclitis uxori timebantur susurrasset inclitis disceret soli postridie referente in timebantur in citerioris vitae quondam in susurrasset conscii secreto secreto referente imperator conscii praesente in etiam Amphiarao ideoque interdum uxori uxori aut in velut praesente etiam aurem ut acciderat referente ideoque velut timebantur siquid nullo parietes conscii.
+					Timebantur Amphiarao vitae Marcio referente aurem vatibus conscii conscii in interdum citerioris citerioris imperator conscii inclitis parietes soli referente ministro aut penetrali soli ideoque parietes ideoque timebantur in aut parietes conscii siquid ut uxori aurem uxori postridie conscii citerioris in in ut conscii imperator Amphiarao citerioris quondam nullo disceret postridie ideoque conscii vitae inclitis uxori timebantur susurrasset inclitis disceret soli postridie referente in timebantur in citerioris vitae quondam in susurrasset conscii secreto secreto referente imperator conscii praesente in etiam Amphiarao ideoque interdum uxori uxori aut in velut praesente etiam aurem ut acciderat referente ideoque velut timebantur siquid nullo parietes conscii.
+				</p>
+				<button href="">Télécharger la plaquette</button>
+			</div>
 
-<!-- Présentation de Jobs Now -->
-<div id="divPresentationJN">
-	<h1>Présentation de Jobs Now</h1>
-	<p>
-		Timebantur Amphiarao vitae Marcio referente aurem vatibus conscii conscii in interdum citerioris citerioris imperator conscii inclitis parietes soli referente ministro aut penetrali soli ideoque parietes ideoque timebantur in aut parietes conscii siquid ut uxori aurem uxori postridie conscii citerioris in in ut conscii imperator Amphiarao citerioris quondam nullo disceret postridie ideoque conscii vitae inclitis uxori timebantur susurrasset inclitis disceret soli postridie referente in timebantur in citerioris vitae quondam in susurrasset conscii secreto secreto referente imperator conscii praesente in etiam Amphiarao ideoque interdum uxori uxori aut in velut praesente etiam aurem ut acciderat referente ideoque velut timebantur siquid nullo parietes conscii.
-		Timebantur Amphiarao vitae Marcio referente aurem vatibus conscii conscii in interdum citerioris citerioris imperator conscii inclitis parietes soli referente ministro aut penetrali soli ideoque parietes ideoque timebantur in aut parietes conscii siquid ut uxori aurem uxori postridie conscii citerioris in in ut conscii imperator Amphiarao citerioris quondam nullo disceret postridie ideoque conscii vitae inclitis uxori timebantur susurrasset inclitis disceret soli postridie referente in timebantur in citerioris vitae quondam in susurrasset conscii secreto secreto referente imperator conscii praesente in etiam Amphiarao ideoque interdum uxori uxori aut in velut praesente etiam aurem ut acciderat referente ideoque velut timebantur siquid nullo parietes conscii.
-	</p>
-	<button href="">Télécharger la plaquette</button>
-</div>
-
-<!-- Présentation de l'équipe -->
-
-<div id="divEquipe">
-	<h1>L'équipe</h1>
-	<div id="membresEquipe">
-		<div class="membreEquipe">
-			<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
-			<p>Membre</p>
+			<!-- Présentation de l'équipe -->
+			<div id="divEquipe">
+				<h1>L'équipe</h1>
+				<div id="membresEquipe">
+					<div class="membreEquipe">
+						<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
+						<p>Membre</p>
+					</div>
+					<div class="membreEquipe">
+						<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
+						<p>Membre</p>
+					</div>
+					<div class="membreEquipe">
+						<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
+						<p>Membre</p>
+					</div>
+					<div class="membreEquipe">
+						<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
+						<p>Membre</p>
+					</div>
+					<div class="membreEquipe">
+						<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
+						<p>Membre</p>
+					</div>
+					<div class="membreEquipe">
+						<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
+						<p>Membre</p>
+					</div>
+				</div>
+			</div>
 		</div>
-		<div class="membreEquipe">
-			<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
-			<p>Membre</p>
-		</div>
-		<div class="membreEquipe">
-			<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
-			<p>Membre</p>
-		</div>
-		<div class="membreEquipe">
-			<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
-			<p>Membre</p>
-		</div>
-		<div class="membreEquipe">
-			<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
-			<p>Membre</p>
-		</div>
-		<div class="membreEquipe">
-			<img src="images/logoMembre.png" class="logoMembre" alt="Membre">
-			<p>Membre</p>
-		</div>
-	</div>
-</div>
 
-<!-- Footer -->
-<footer>
-	<a href="https://www.facebook.com/Jobs-Now-1662202004073313/">Facebook</a>
-	<a href="LinkedinUrl">LinkedIn</a>
-	<a href="Page5.NousContacter.html">Nous contacter</a>
-	<a href="Page7.MentionsLegales.html">Mentions légales</a>
-</footer>
+		<!-- Footer -->
+		<footer>
+			<a href="https://www.facebook.com/Jobs-Now-1662202004073313/">Facebook</a>
+			<a href="LinkedinUrl">LinkedIn</a>
+			<a href="Page5.NousContacter.html">Nous contacter</a>
+			<a href="Page7.MentionsLegales.html">Mentions légales</a>
+		</footer>
 
-</body>
+	</body>
 </html>
