@@ -7,8 +7,8 @@ ALTER TABLE faire ADD CONSTRAINT `fk_idUser` FOREIGN KEY (`idUser`) REFERENCES `
 ALTER TABLE faire ADD CONSTRAINT `fk_idAnnonce` FOREIGN KEY (`idAnnonce`) REFERENCES `annonce` (`idAnnonce`);
 
 
-INSERT INTO utilisateur(nom, prenom, dateNaissance, adresse, tel, email, mdp, admin) VALUES ('max', 'mez', '1996-11-11', '117 rue Canteleu', 0687654321, 'maxmez@hei.yncrea.fr', 0000, 1);
-INSERT INTO utilisateur(nom, prenom, dateNaissance, adresse, tel, email, mdp, admin) VALUES ('hugo', 'mercier', '1996-12-18', '117 rue Canteleu', 0612345678, 'hm@hei.yncrea.fr', 0001, 1);
+INSERT INTO utilisateur(nom, prenom, dateNaissance, adresse, tel, email, mdp, admin) VALUES ('max', 'mez', '1996-11-11', '117 rue Canteleu', '0687654321', 'maxmez@hei.yncrea.fr', 0000, 1);
+INSERT INTO utilisateur(nom, prenom, dateNaissance, adresse, tel, email, mdp, admin) VALUES ('hugo', 'mercier', '1996-12-18', '117 rue Canteleu', '0612345678', 'hm@hei.yncrea.fr', 0001, 1);
 
 
 INSERT INTO annonce(titre, description, dateDebut, lieu, formation, tenue, remuneration) VALUES ('Serveurs', 'On recherche 3 serveurs pour une fête', '2018-03-08', 'Lille', 0, 'soigné', 200.00);

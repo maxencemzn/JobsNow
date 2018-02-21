@@ -9,16 +9,16 @@ public class Utilisateur {
     private String prenom;
     private Date dateNaissance;
     private String adresse;
-    private Integer tel;
+    private String tel;
     private String email;
     private String mdp;
-    private Boolean admin;
+    private Integer admin;
 
     public Utilisateur(){
 
     }
 
-    public Utilisateur(Integer idUser, String nom, String prenom, Date dateNaissance, String adresse, Integer tel, String email, String mdp, Boolean admin) {
+    public Utilisateur(Integer idUser, String nom, String prenom, Date dateNaissance, String adresse, String tel, String email, String mdp, Integer admin) {
         this.idUser = idUser;
         this.nom = nom;
         this.prenom = prenom;
@@ -50,7 +50,7 @@ public class Utilisateur {
         this.adresse = adresse;
     }
 
-    public void setTel(Integer tel) {
+    public void setTel(String tel) {
         this.tel = tel;
     }
 
@@ -62,7 +62,7 @@ public class Utilisateur {
         this.mdp = mdp;
     }
 
-    public void setAdmin(Boolean admin) {
+    public void setAdmin(Integer admin) {
         this.admin = admin;
     }
 
@@ -86,7 +86,7 @@ public class Utilisateur {
         return adresse;
     }
 
-    public Integer getTel() {
+    public String getTel() {
         return tel;
     }
 
@@ -98,7 +98,7 @@ public class Utilisateur {
         return mdp;
     }
 
-    public Boolean getAdmin() {
+    public Integer getAdmin() {
         return admin;
     }
 }

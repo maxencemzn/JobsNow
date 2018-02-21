@@ -26,7 +26,7 @@ CREATE TABLE `utilisateur` (
   `prenom` varchar(50) NOT NULL,
   `dateNaissance` date NOT NULL,
   `adresse` varchar(50) NOT NULL,
-  `tel` int(10) NOT NULL,
+  `tel` char(10) NOT NULL,
   `email` varchar(50) NOT NULL,
   `mdp` varchar(100) NOT NULL,
   `admin` tinyint NOT NULL,
