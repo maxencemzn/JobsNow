@@ -126,6 +126,47 @@
       <projects_view />
     </option>
   </component>
+<<<<<<< HEAD
+=======
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/JobsNow.css" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/servlets/Page1Servlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/servlets/Page1JobsNowServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/servlets/Page2AnnoncesServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/servlets/Page3PartenairesServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/servlets/Page4TemoignagesServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/servlets/Page5NousContacterServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/servlets/Page6SeConnecterServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/servlets/Page7MentionsLegalesServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/filters/EncodingFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Fragment.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/dao/impl/DataSourceProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/entities/annonce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/entities/faire.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/dao/UtilisateurDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/entities/Faire.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/entities/Utilisateur.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/entities/Annonce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/dao/impl/UtilisateurDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/dao/Annonce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/dao/AnnonceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page6.SeConnecter.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page7.MentionsLegales.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page5.NousContacter.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page4.Temoignages.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page3.Partenaires.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/JobsNow.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page1.JobsNow.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Fragments.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page2.Annonces.html" />
+      </list>
+    </option>
+  </component>
+>>>>>>> hugo
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
@@ -153,6 +194,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="AndroidView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -207,10 +250,15 @@
           <select />
         </subPane>
       </pane>
+<<<<<<< HEAD
       <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+>>>>>>> hugo
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -351,9 +399,23 @@
       <created>1519232861950</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
+<<<<<<< HEAD
       <updated>1519232861950</updated>
       <workItem from="1519232865985" duration="35000" />
       <workItem from="1519233193715" duration="99000" />
+=======
+      <updated>1519032678378</updated>
+      <workItem from="1519032682208" duration="362000" />
+      <workItem from="1519058324021" duration="6628000" />
+      <workItem from="1519131710865" duration="462000" />
+      <workItem from="1519139653891" duration="1221000" />
+      <workItem from="1519159993187" duration="3701000" />
+      <workItem from="1519163796851" duration="8000" />
+      <workItem from="1519220715517" duration="3348000" />
+      <workItem from="1519225716028" duration="730000" />
+      <workItem from="1519232087154" duration="3000" />
+      <workItem from="1519233039635" duration="31000" />
+>>>>>>> hugo
     </task>
     <servers />
   </component>
@@ -363,7 +425,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="139000" />
+=======
+    <option name="totallyTimeSpent" value="16494000" />
+>>>>>>> hugo
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -381,7 +447,11 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27604726" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+=======
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27228788" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+>>>>>>> hugo
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -751,14 +821,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page2.Annonces.html">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="778">
           <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+=======
+        <state relative-caret-position="42">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+>>>>>>> hugo
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JobsNow/dao/impl/UtilisateurDaoTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="84">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
         </state>
@@ -768,6 +844,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+=======
+        <state relative-caret-position="778">
+          <caret line="78" column="19" lean-forward="false" selection-start-line="78" selection-start-column="19" selection-end-line="78" selection-end-column="19" />
+>>>>>>> hugo
           <folding />
         </state>
       </provider>
