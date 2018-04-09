@@ -9,11 +9,11 @@ public class Annonce {
     private String description;
     private Date dateDebut;
     private String lieu;
-    private Boolean formation;
+    private Integer formation;
     private String tenue;
     private Double remuneration;
 
-    public  Annonce(Integer idAnnonce, String titre, String description, Date dateDebut, String lieu, Boolean formation, String tenue, Double remuneration){
+    public  Annonce(Integer idAnnonce, String titre, String description, Date dateDebut, String lieu, Integer formation, String tenue, Double remuneration){
         this.idAnnonce = idAnnonce;
         this.titre = titre;
         this.description = description;
@@ -45,7 +45,7 @@ public class Annonce {
         this.lieu = lieu;
     }
 
-    public void setFormation(Boolean formation) {
+    public void setFormation(Integer formation) {
         this.formation = formation;
     }
 
@@ -77,7 +77,7 @@ public class Annonce {
         return lieu;
     }
 
-    public Boolean getFormation() {
+    public Integer getFormation() {
         return formation;
     }
 

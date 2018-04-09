@@ -8,12 +8,12 @@ import java.sql.Date;
 
 public class UtilisateurService {
 
-    private static class VolServiceHolder {
+    private static class UtilisateurServiceHolder {
         private static UtilisateurService instance = new UtilisateurService();
     }
 
     public static UtilisateurService getInstance(){
-        return VolServiceHolder.instance;
+        return UtilisateurServiceHolder.instance;
     }
 
     private UtilisateurService(){

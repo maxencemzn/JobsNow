@@ -7,23 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97dfdd5d-e696-4e26-8347-f7d0fb3907dd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JobsNow/dao/impl/AnnonceDaoImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JobsNow/services/AnnonceService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JobsNow/servlets/AddAnnonceServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/JobsNow/dao/impl/AnnonceDaoTestCase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/classes/JobsNow/servlets/AddUtilisateurServlet.class" afterPath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/classes/JobsNow/servlets/AddUtilisateurServlet.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/JobsNow/servlets/AddUtilisateurServlet.class" afterPath="$PROJECT_DIR$/target/classes/JobsNow/servlets/AddUtilisateurServlet.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Fragments.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Fragments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page1.JobsNow.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page1.JobsNow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page2.Annonces.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page2.Annonces.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page3.Partenaires.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page3.Partenaires.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page4.Temoignages.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page4.Temoignages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page5.NousContacter.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page5.NousContacter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page6.SeConnecter.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page6.SeConnecter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page7.MentionsLegales.html" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page7.MentionsLegales.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Fragments.html" afterPath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Fragments.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page1.JobsNow.html" afterPath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page1.JobsNow.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page2.Annonces.html" afterPath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page2.Annonces.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page3.Partenaires.html" afterPath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page3.Partenaires.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page4.Temoignages.html" afterPath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page4.Temoignages.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page5.NousContacter.html" afterPath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page5.NousContacter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page6.SeConnecter.html" afterPath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page6.SeConnecter.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page7.MentionsLegales.html" afterPath="$PROJECT_DIR$/target/JobsNow-1.0-SNAPSHOT/WEB-INF/templates/Page7.MentionsLegales.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JobsNow/dao/AnnonceDao.java" afterPath="$PROJECT_DIR$/src/main/java/JobsNow/dao/AnnonceDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JobsNow/entities/Annonce.java" afterPath="$PROJECT_DIR$/src/main/java/JobsNow/entities/Annonce.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JobsNow/services/UtilisateurService.java" afterPath="$PROJECT_DIR$/src/main/java/JobsNow/services/UtilisateurService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/JobsNow/servlets/AddUtilisateurServlet.java" afterPath="$PROJECT_DIR$/src/main/java/JobsNow/servlets/AddUtilisateurServlet.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,111 +28,76 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Page6.SeConnecter.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page6.SeConnecter.html">
+    <leaf>
+      <file leaf-file-name="UtilisateurDaoTestCase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JobsNow/dao/impl/UtilisateurDaoTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="44" column="171" lean-forward="false" selection-start-line="44" selection-start-column="171" selection-end-line="44" selection-end-column="171" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AddUtilisateurServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/servlets/AddUtilisateurServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UtilisateurDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/dao/impl/UtilisateurDaoImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-203">
-              <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+            <state relative-caret-position="672">
+              <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <marker date="1519232181028" expanded="true" signature="283:399" ph="INSERT INTO utilisateur... " />
+                <marker date="1519232181040" expanded="true" signature="575:592" ph="DELETE FROM " />
+                <marker date="1519232181040" expanded="true" signature="629:676" ph="ALTER TABLE faire... " />
+                <marker date="1519232181040" expanded="true" signature="713:757" ph="ALTER TABLE faire... " />
+                <marker date="1519232181040" expanded="true" signature="916:1019" ph="ALTER TABLE faire... " />
+                <marker date="1519232181040" expanded="true" signature="1056:1164" ph="ALTER TABLE faire... " />
+                <marker date="1519232181040" expanded="true" signature="1201:1388" ph="INSERT INTO utilisateur... " />
+                <marker date="1519232181040" expanded="true" signature="1425:1613" ph="INSERT INTO utilisateur... " />
+                <marker date="1519232181040" expanded="true" signature="1650:1843" ph="INSERT INTO annonce... " />
+                <marker date="1519232181040" expanded="true" signature="1880:2109" ph="INSERT INTO annonce... " />
+                <marker date="1519232181040" expanded="true" signature="2146:2196" ph="INSERT INTO faire... " />
+                <marker date="1519232181040" expanded="true" signature="2233:2283" ph="INSERT INTO faire... " />
+                <marker date="1519232181040" expanded="true" signature="2320:2370" ph="INSERT INTO faire... " />
+                <marker date="1519232181040" expanded="true" signature="3749:3952" ph="SELECT * FRO... utilisateur" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UtilisateurService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/services/UtilisateurService.java">
+      <file leaf-file-name="Date.java" pinned="false" current-in-tab="false">
+        <entry file="jar://G:/JDK/src.zip!/java/sql/Date.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="187">
+              <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Utilisateur.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/entities/Utilisateur.java">
+      <file leaf-file-name="AnnonceDaoTestCase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/JobsNow/dao/impl/AnnonceDaoTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Fragments.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Fragments.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="546">
-              <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page1.JobsNow.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page1.JobsNow.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="70" column="52" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page2.Annonces.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page2.Annonces.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="79" column="48" lean-forward="false" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page5.NousContacter.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page5.NousContacter.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="601">
-              <caret line="44" column="48" lean-forward="false" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Page7.MentionsLegales.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page7.MentionsLegales.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-              <folding />
+            <state relative-caret-position="53">
+              <caret line="56" column="197" lean-forward="false" selection-start-line="56" selection-start-column="197" selection-end-line="56" selection-end-column="197" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1523295508565" expanded="true" signature="552:569" ph="DELETE FROM " />
+                <marker date="1523295508565" expanded="true" signature="606:653" ph="ALTER TABLE faire... " />
+                <marker date="1523295508565" expanded="true" signature="690:734" ph="ALTER TABLE faire... " />
+                <marker date="1523295508565" expanded="true" signature="893:996" ph="ALTER TABLE faire... " />
+                <marker date="1523295508565" expanded="true" signature="1033:1141" ph="ALTER TABLE faire... " />
+                <marker date="1523295508565" expanded="true" signature="1178:1365" ph="INSERT INTO utilisateur... " />
+                <marker date="1523295508565" expanded="true" signature="1402:1590" ph="INSERT INTO utilisateur... " />
+                <marker date="1523295508565" expanded="true" signature="1627:1820" ph="INSERT INTO annonce... " />
+                <marker date="1523295508565" expanded="true" signature="1857:2086" ph="INSERT INTO annonce... " />
+                <marker date="1523295508565" expanded="true" signature="2123:2173" ph="INSERT INTO faire... " />
+                <marker date="1523295508565" expanded="true" signature="2210:2260" ph="INSERT INTO faire... " />
+                <marker date="1523295508565" expanded="true" signature="2297:2347" ph="INSERT INTO faire... " />
+                <marker date="1523295508565" expanded="true" signature="3689:3915" ph="SELECT * FRO... annonce" />
+                <marker date="1523295508565" expanded="true" signature="3689:3933" ph="SELECT * FRO... annonce" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -159,6 +118,14 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page7.MentionsLegales.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Fragments.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page6.SeConnecter.html" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/servlets/AddUtilisateurServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/services/UtilisateurService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/services/AnnonceService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/dao/AnnonceDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/entities/Annonce.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/dao/impl/AnnonceDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JobsNow/servlets/AddAnnonceServlet.java" />
+        <option value="$PROJECT_DIR$/src/test/java/JobsNow/dao/impl/AnnonceDaoTestCase.java" />
       </list>
     </option>
   </component>
@@ -176,8 +143,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="679" />
-    <option name="y" value="-9" />
+    <option name="x" value="618" />
+    <option name="y" value="-31" />
     <option name="width" value="976" />
     <option name="height" value="927" />
   </component>
@@ -196,6 +163,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -280,6 +250,13 @@
               <item name="JobsNow" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="SQL" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JobsNow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JobsNow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -307,14 +284,32 @@
               <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="JobsNow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JobsNow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JobsNow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JobsNow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="JobsNow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="JobsNow" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -333,7 +328,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.JobsNow">
+  <component name="RunManager" selected="JUnit.AnnonceDaoTestCase">
+    <configuration name="AnnonceDaoTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JobsNow.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JobsNow" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="JobsNow.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="JobsNow.dao.impl.AnnonceDaoTestCase" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration name="JobsNow" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 8.0.46" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -405,6 +425,31 @@
           <artifact name="JobsNow:war exploded" />
         </option>
       </method>
+    </configuration>
+    <configuration name="UtilisateurDaoTestCase" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="JobsNow.dao.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="JobsNow" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="JobsNow.dao.impl" />
+      <option name="MAIN_CLASS_NAME" value="JobsNow.dao.impl.UtilisateurDaoTestCase" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -487,9 +532,23 @@
       <properties />
       <listeners />
     </configuration>
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.JobsNow" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.UtilisateurDaoTestCase" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.AnnonceDaoTestCase" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.AnnonceDaoTestCase" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.UtilisateurDaoTestCase" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -500,11 +559,30 @@
       <updated>1519234256012</updated>
       <workItem from="1519234260051" duration="843000" />
       <workItem from="1519235126011" duration="1453000" />
+      <workItem from="1519238499713" duration="236000" />
+      <workItem from="1519305836477" duration="46000" />
+      <workItem from="1519306197165" duration="1331000" />
+      <workItem from="1519671403548" duration="463000" />
+      <workItem from="1523290410511" duration="5139000" />
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="AnnonceDaoTestCase - 2018.04.09 at 19h 36m 34s.xml">
+      <configuration name="AnnonceDaoTestCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnonceDaoTestCase - 2018.04.09 at 19h 37m 48s.xml">
+      <configuration name="AnnonceDaoTestCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AnnonceDaoTestCase - 2018.04.09 at 19h 38m 31s.xml">
+      <configuration name="AnnonceDaoTestCase" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="UtilisateurDaoTestCase - 2018.02.22 at 14h 42m 32s.xml">
+      <configuration name="UtilisateurDaoTestCase" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2296000" />
+    <option name="totallyTimeSpent" value="9511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -519,20 +597,20 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32900944" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30306605" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25349087" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26530612" sideWeight="0.5" order="6" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -553,7 +631,43 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page6.SeConnecter.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/entities/Faire.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/dao/impl/DataSourceProvider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/servlets/AddUtilisateurServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="840">
+          <caret line="40" column="9" lean-forward="true" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/services/UtilisateurService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="25" column="39" lean-forward="true" selection-start-line="25" selection-start-column="39" selection-end-line="25" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/SQL/TestDB.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -561,146 +675,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Fragments.html">
+    <entry file="file://$PROJECT_DIR$/src/main/SQL/Tables.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/servlets/Page7MentionsLegalesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page1.JobsNow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="70" column="52" lean-forward="true" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page2.Annonces.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1659">
-          <caret line="79" column="48" lean-forward="false" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page3.Partenaires.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1407">
-          <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page4.Temoignages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1428">
-          <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page5.NousContacter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="44" column="48" lean-forward="false" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page7.MentionsLegales.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="48" lean-forward="true" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page3.Partenaires.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="67" column="48" lean-forward="false" selection-start-line="67" selection-start-column="48" selection-end-line="67" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page4.Temoignages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="68" column="4" lean-forward="false" selection-start-line="68" selection-start-column="4" selection-end-line="68" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page5.NousContacter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="44" column="48" lean-forward="false" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/servlets/Page7MentionsLegalesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page7.MentionsLegales.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
-          <caret line="27" column="48" lean-forward="false" selection-start-line="27" selection-start-column="48" selection-end-line="27" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page2.Annonces.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="79" column="48" lean-forward="false" selection-start-line="79" selection-start-column="48" selection-end-line="79" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Fragments.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="546">
-          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page1.JobsNow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="601">
-          <caret line="70" column="52" lean-forward="false" selection-start-line="70" selection-start-column="8" selection-end-line="70" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/entities/Utilisateur.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/dao/impl/UtilisateurDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-203">
-          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+        <state relative-caret-position="210">
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
             <marker date="1519232181028" expanded="true" signature="283:399" ph="INSERT INTO utilisateur... " />
@@ -708,27 +694,119 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/services/UtilisateurService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/dao/UtilisateurDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="59" lean-forward="false" selection-start-line="6" selection-start-column="59" selection-end-line="6" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/entities/Utilisateur.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/servlets/AddUtilisateurServlet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/dao/AnnonceDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/templates/Page6.SeConnecter.html">
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/entities/Annonce.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="44" column="171" lean-forward="false" selection-start-line="44" selection-start-column="171" selection-end-line="44" selection-end-column="171" />
+        <state relative-caret-position="1113">
+          <caret line="79" column="18" lean-forward="false" selection-start-line="79" selection-start-column="18" selection-end-line="79" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/dao/impl/AnnonceDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="21" column="29" lean-forward="false" selection-start-line="21" selection-start-column="29" selection-end-line="21" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1523295387394" expanded="true" signature="251:361" ph="INSERT INTO annonce... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/services/AnnonceService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JobsNow/servlets/AddAnnonceServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="328">
+          <caret line="22" column="15" lean-forward="false" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://G:/JDK/src.zip!/java/sql/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JobsNow/dao/impl/UtilisateurDaoTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="672">
+          <caret line="59" column="30" lean-forward="false" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1519232181040" expanded="true" signature="575:592" ph="DELETE FROM " />
+            <marker date="1519232181040" expanded="true" signature="629:676" ph="ALTER TABLE faire... " />
+            <marker date="1519232181040" expanded="true" signature="713:757" ph="ALTER TABLE faire... " />
+            <marker date="1519232181040" expanded="true" signature="916:1019" ph="ALTER TABLE faire... " />
+            <marker date="1519232181040" expanded="true" signature="1056:1164" ph="ALTER TABLE faire... " />
+            <marker date="1519232181040" expanded="true" signature="1201:1388" ph="INSERT INTO utilisateur... " />
+            <marker date="1519232181040" expanded="true" signature="1425:1613" ph="INSERT INTO utilisateur... " />
+            <marker date="1519232181040" expanded="true" signature="1650:1843" ph="INSERT INTO annonce... " />
+            <marker date="1519232181040" expanded="true" signature="1880:2109" ph="INSERT INTO annonce... " />
+            <marker date="1519232181040" expanded="true" signature="2146:2196" ph="INSERT INTO faire... " />
+            <marker date="1519232181040" expanded="true" signature="2233:2283" ph="INSERT INTO faire... " />
+            <marker date="1519232181040" expanded="true" signature="2320:2370" ph="INSERT INTO faire... " />
+            <marker date="1519232181040" expanded="true" signature="3749:3952" ph="SELECT * FRO... utilisateur" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/JobsNow/dao/impl/AnnonceDaoTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="56" column="197" lean-forward="false" selection-start-line="56" selection-start-column="197" selection-end-line="56" selection-end-column="197" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1523295508565" expanded="true" signature="552:569" ph="DELETE FROM " />
+            <marker date="1523295508565" expanded="true" signature="606:653" ph="ALTER TABLE faire... " />
+            <marker date="1523295508565" expanded="true" signature="690:734" ph="ALTER TABLE faire... " />
+            <marker date="1523295508565" expanded="true" signature="893:996" ph="ALTER TABLE faire... " />
+            <marker date="1523295508565" expanded="true" signature="1033:1141" ph="ALTER TABLE faire... " />
+            <marker date="1523295508565" expanded="true" signature="1178:1365" ph="INSERT INTO utilisateur... " />
+            <marker date="1523295508565" expanded="true" signature="1402:1590" ph="INSERT INTO utilisateur... " />
+            <marker date="1523295508565" expanded="true" signature="1627:1820" ph="INSERT INTO annonce... " />
+            <marker date="1523295508565" expanded="true" signature="1857:2086" ph="INSERT INTO annonce... " />
+            <marker date="1523295508565" expanded="true" signature="2123:2173" ph="INSERT INTO faire... " />
+            <marker date="1523295508565" expanded="true" signature="2210:2260" ph="INSERT INTO faire... " />
+            <marker date="1523295508565" expanded="true" signature="2297:2347" ph="INSERT INTO faire... " />
+            <marker date="1523295508565" expanded="true" signature="3689:3915" ph="SELECT * FRO... annonce" />
+            <marker date="1523295508565" expanded="true" signature="3689:3933" ph="SELECT * FRO... annonce" />
+          </folding>
         </state>
       </provider>
     </entry>
