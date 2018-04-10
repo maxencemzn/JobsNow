@@ -81,4 +81,20 @@ public class AnnonceDaoTestCase {
         assertThat(annonces).extracting("titre", "description", "dateDebut", "lieu", "formation", "tenue", "remuneration").containsOnly(tuple("Serveurs", "On recherche 3 serveurs pour une fête", Date.valueOf("2018-03-08"), "Lille", 0, "soigné", 200.00),
                                                                                                                                                         tuple("Caissier", "On recherche 2 caissiers pour un remplacement 15h/semaine", Date.valueOf("2018-02-11"), "Mouvaux", 1, "pas particulièrement", 113.12));
     }
+
+    @Test
+    public void shouldDelAnnonce() throws Exception {
+        //WHEN
+        annonceDao.delAnnonce(2);
+        //THEN
+        try (Connection connection = DataSourceProvider.getDataSource().getConnection();
+             Statement stmt = connection.createStatement()) {
+            try (ResultSet rs = stmt.executeQuery("SELECT * FROM annonce WHERE idAnnonce='2'")) {
+                assertThat(rs.next()).isFalse();
+            }
+            try (ResultSet rs2 = stmt.executeQuery("SELECT * FROM faire WHERE idAnnonce='2'")) {
+                assertThat(rs2.next()).isFalse();
+            }
+        }
+    }
 }

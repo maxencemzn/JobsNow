@@ -9,4 +9,6 @@ public interface AnnonceDao {
     public Annonce addAnnonce(Annonce annonce);
 
     public List<Annonce> listAnnonce();
+
+    public void delAnnonce(Integer idAnnonce);
 }

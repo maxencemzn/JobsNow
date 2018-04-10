@@ -27,5 +27,7 @@ public class AnnonceService {
     }
 
     public List<Annonce> listAnnonce() { return annonceDao.listAnnonce(); }
+
+    public void delAnnonce(Integer idAnnonce) { annonceDao.delAnnonce(idAnnonce); }
 }
 

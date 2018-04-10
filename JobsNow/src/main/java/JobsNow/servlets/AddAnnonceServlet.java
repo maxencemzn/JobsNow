@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.sql.Date;
 
+@WebServlet("/addAnnonce")
 public class AddAnnonceServlet extends HttpServlet {
 
     @Override
@@ -32,7 +33,7 @@ public class AddAnnonceServlet extends HttpServlet {
         Annonce annonce = new Annonce(null, titre, description, dateDebut, lieu, formationB, tenue, remuneration);
         AnnonceService.getInstance().addAnnonce(annonce);
 
-        resp.sendRedirect("administration");
+        resp.sendRedirect("Administration");
 
     }
 }
