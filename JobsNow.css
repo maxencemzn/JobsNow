@@ -169,6 +169,7 @@
         .logoMembre {
             width: 150px;
             height: 150px;
+            margin : auto;
         }
 
 /* CSS PAGE 2 : ANNONCES */
@@ -295,6 +296,14 @@
         }
 
         .texteTemoignage {
+        }
+
+        .divImageTemoignage {
+
+        }
+
+        .imageTemoignage {
+        	height: 70%;
         }
 
 /* CSS PAGE 5 : NOUS CONTACTER */
