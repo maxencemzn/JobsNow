@@ -206,6 +206,12 @@
                 flex-wrap: wrap;
         }
 
+        .paraInline p {
+            display: inline;
+            margin-bottom: 1em;
+            margin-top: 1em;
+        }
+
 /* CSS PAGE 3 : PARTENAIRES */
 
     /* Partenaires */

@@ -1,8 +1,10 @@
 package JobsNow.dao.impl;
 
 import static org.assertj.core.api.Assertions.assertThat;
+import static org.assertj.core.api.Assertions.tuple;
 
 import java.sql.*;
+import java.util.List;
 
 import JobsNow.dao.AnnonceDao;
 import JobsNow.entities.Annonce;
@@ -68,5 +70,15 @@ public class AnnonceDaoTestCase {
                 assertThat(rs.next()).isFalse();
             }
         }
+    }
+
+    @Test
+    public void shouldListAnnonce() throws Exception {
+        // WHEN
+        List<Annonce> annonces = annonceDao.listAnnonce();
+        // THEN
+        assertThat(annonces).hasSize(2);
+        assertThat(annonces).extracting("titre", "description", "dateDebut", "lieu", "formation", "tenue", "remuneration").containsOnly(tuple("Serveurs", "On recherche 3 serveurs pour une fête", Date.valueOf("2018-03-08"), "Lille", 0, "soigné", 200.00),
+                                                                                                                                                        tuple("Caissier", "On recherche 2 caissiers pour un remplacement 15h/semaine", Date.valueOf("2018-02-11"), "Mouvaux", 1, "pas particulièrement", 113.12));
     }
 }

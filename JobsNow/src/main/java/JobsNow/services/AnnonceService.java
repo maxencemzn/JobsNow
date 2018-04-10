@@ -1,7 +1,10 @@
 package JobsNow.services;
 
+import JobsNow.dao.AnnonceDao;
 import JobsNow.dao.impl.AnnonceDaoImpl;
 import JobsNow.entities.Annonce;
+
+import java.util.List;
 
 public class AnnonceService {
 
@@ -17,10 +20,12 @@ public class AnnonceService {
 
     }
 
-    private AnnonceDaoImpl annonceDaoImpl = new AnnonceDaoImpl();
+    private AnnonceDaoImpl annonceDao = new AnnonceDaoImpl();
 
     public Annonce addAnnonce(Annonce annonce) {
-        return annonceDaoImpl.addAnnonce(annonce);
+        return annonceDao.addAnnonce(annonce);
     }
+
+    public List<Annonce> listAnnonce() { return annonceDao.listAnnonce(); }
 }
 
