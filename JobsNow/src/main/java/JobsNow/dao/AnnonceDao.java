@@ -1,8 +1,12 @@
 package JobsNow.dao;
 
 import JobsNow.entities.Annonce;
-import JobsNow.entities.Utilisateur;
+
+import java.util.List;
 
 public interface AnnonceDao {
-    public Utilisateur addAnnonce(Annonce annonce);
+
+    public Annonce addAnnonce(Annonce annonce);
+
+    public List<Annonce> listAnnonce();
 }

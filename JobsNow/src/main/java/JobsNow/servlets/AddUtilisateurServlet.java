@@ -19,19 +19,20 @@ public class AddUtilisateurServlet extends HttpServlet {
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String nom = req.getParameter("nom");
-            String prenom = req.getParameter("prenom");
-            Date dateNaissance = Date.valueOf(req.getParameter("dateNaissance"));
-            String adresse = req.getParameter("adresse");
-            String tel = req.getParameter("tel");
-            String email = req.getParameter("email");
-            String mdpph = req.getParameter("mdp");
-            byte[] bytesOfMessage = mdpph.getBytes("UTF-8");
-            MessageDigest md = null;
-            try {
-                md = MessageDigest.getInstance("MD5");
-            } catch (NoSuchAlgorithmException e) {
+        String prenom = req.getParameter("prenom");
+        Date dateNaissance = Date.valueOf(req.getParameter("dateNaissance"));
+        String adresse = req.getParameter("adresse");
+        String tel = req.getParameter("tel");
+        String email = req.getParameter("email");
+        String mdpph = req.getParameter("mdp");
+        byte[] bytesOfMessage = mdpph.getBytes("UTF-8");
+        MessageDigest md = null;
+        try {
+            md = MessageDigest.getInstance("MD5");
+        } catch (NoSuchAlgorithmException e) {
             e.printStackTrace();
         }
+
         byte[] thedigest = md.digest(bytesOfMessage);
         BigInteger bigInt = new BigInteger(1, thedigest);
         String mdp = bigInt.toString(16);

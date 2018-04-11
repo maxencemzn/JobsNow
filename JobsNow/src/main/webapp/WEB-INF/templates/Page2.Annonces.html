@@ -25,53 +25,14 @@
 		<!-- Annonces -->
 		<div id="divAnnonces">
 			<h1>Nos annonces</h1>
-			<div class="divAnnonce">
-				<h3>Annonce</h3>
-				<p>Date</p>
-				<p>Lieu</p>
-				<p>Tenue</p>
-				<p>Remuneration</p>
-				<p>Description</p>
-				<div class="divBouton">
-					<button>Liker</button>
-					<button>Postuler</button>
-				</div>	
-			</div>
-			<div class="divAnnonce">
-				<h3>Annonce</h3>
-				<p>Date</p>
-				<p>Lieu</p>
-				<p>Tenue</p>
-				<p>Remuneration</p>
-				<p>Description</p>
-				<div class="divBouton">
-					<button>Liker</button>
-					<button>Postuler</button>
-				</div>		
-			</div>
-			<div class="divAnnonce">
-				<h3>Annonce</h3>
-				<p>Date</p>
-				<p>Lieu</p>
-				<p>Tenue</p>
-				<p>Remuneration</p>
-				<p>Description</p>
-				<div class="divBouton">
-					<button>Liker</button>
-					<button>Postuler</button>
-				</div>		
-			</div>
-			<div class="divAnnonce">
-				<h3>Annonce</h3>
-				<p>Date</p>
-				<p>Lieu</p>
-				<p>Tenue</p>
-				<p>Remuneration</p>
-				<p>Description</p>
-				<div class="divBouton">
-					<button>Liker</button>
-					<button>Postuler</button>
-				</div>		
+			<div class="divAnnonce" th:each="annonce : ${listAnnonce}">
+				<h3 th:text="${annonce.titre}"></h3>
+				<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Numéro de l'annonce : </p>  <p style="display: inline" th:text="${annonce.idAnnonce}"></p></div>
+				<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Date : </p> 				<p style="display: inline" th:text="${annonce.dateDebut}"></p></div>
+				<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Lieu : </p> 				<p style="display: inline" th:text="${annonce.lieu}"></p></div>
+				<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Tenue : </p>				<p style="display: inline" th:text="${annonce.tenue}"></p></div>
+				<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Remuneration : </p> 		<p style="display: inline" th:text="${annonce.remuneration}"></p></div>
+				<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Description : </p> 			<p style="display: inline" th:text="${annonce.description}"></p></div>
 			</div>
 		</div>
 	</div>
