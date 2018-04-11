@@ -25,5 +25,9 @@ public class UtilisateurService {
     public Utilisateur addUtilisateur(Utilisateur utilisateur) {
         return utilisateurDaoImpl.addUtilisateur(utilisateur);
     }
+
+    public boolean SeConnecter(Utilisateur utilisateur){
+        return utilisateurDaoImpl.seConnecter(utilisateur);
+    }
 }
 

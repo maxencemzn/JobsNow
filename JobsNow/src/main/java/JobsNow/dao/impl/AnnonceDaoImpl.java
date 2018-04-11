@@ -18,7 +18,7 @@ public class AnnonceDaoImpl implements AnnonceDao {
             statement.setString(2, annonce.getDescription());
             statement.setDate(3, annonce.getDateDebut());
             statement.setString(4, annonce.getLieu());
-            statement.setInt(5, annonce.getFormation());
+            statement.setString(5, annonce.getFormation());
             statement.setString(6, annonce.getTenue());
             statement.setDouble(7, annonce.getRemuneration());
             statement.executeUpdate();
@@ -52,9 +52,10 @@ public class AnnonceDaoImpl implements AnnonceDao {
                                                 rs.getString("description"),
                                                 rs.getDate("dateDebut"),
                                                 rs.getString("lieu"),
-                                                rs.getInt("formation"),
+                                                rs.getString("formation"),
                                                 rs.getString("tenue"),
                                                 rs.getDouble("remuneration")));
+
             }
 
         } catch (SQLException e) {

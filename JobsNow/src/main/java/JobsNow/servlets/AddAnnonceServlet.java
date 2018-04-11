@@ -21,16 +21,10 @@ public class AddAnnonceServlet extends HttpServlet {
         Date dateDebut = Date.valueOf(req.getParameter("date"));
         String lieu = req.getParameter("lieu");
         String formation = req.getParameter("formation");
-        Integer formationB;
-        if (formation == "oui") {
-            formationB = 1;
-        } else {
-            formationB = 0;
-        }
         String tenue = req.getParameter("tenue");
         Double remuneration = Double.valueOf(req.getParameter("remuneration"));
 
-        Annonce annonce = new Annonce(null, titre, description, dateDebut, lieu, formationB, tenue, remuneration);
+        Annonce annonce = new Annonce(null, titre, description, dateDebut, lieu, formation, tenue, remuneration);
         AnnonceService.getInstance().addAnnonce(annonce);
 
         resp.sendRedirect("Administration");

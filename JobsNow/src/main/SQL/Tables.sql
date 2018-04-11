@@ -9,7 +9,7 @@ CREATE TABLE `annonce` (
   `description` varchar(1000) NOT NULL,
   `dateDebut` date NOT NULL,
   `lieu` varchar(50) NOT NULL,
-  `formation` tinyint NOT NULL,
+  `formation` CHAR(3) NOT NULL,
   `tenue` varchar(100) NOT NULL,
   `remuneration` double(7,2) NOT NULL,
   

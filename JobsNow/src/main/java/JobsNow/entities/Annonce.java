@@ -9,11 +9,11 @@ public class Annonce {
     private String description;
     private Date dateDebut;
     private String lieu;
-    private Integer formation;
+    private String formation;
     private String tenue;
     private Double remuneration;
 
-    public  Annonce(Integer idAnnonce, String titre, String description, Date dateDebut, String lieu, Integer formation, String tenue, Double remuneration){
+    public  Annonce(Integer idAnnonce, String titre, String description, Date dateDebut, String lieu, String formation, String tenue, Double remuneration){
         this.idAnnonce = idAnnonce;
         this.titre = titre;
         this.description = description;
@@ -45,7 +45,7 @@ public class Annonce {
         this.lieu = lieu;
     }
 
-    public void setFormation(Integer formation) {
+    public void setFormation(String formation) {
         this.formation = formation;
     }
 
@@ -77,7 +77,7 @@ public class Annonce {
         return lieu;
     }
 
-    public Integer getFormation() {
+    public String getFormation() {
         return formation;
     }
 

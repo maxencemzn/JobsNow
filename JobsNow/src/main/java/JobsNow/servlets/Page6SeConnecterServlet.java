@@ -4,6 +4,7 @@ import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.WebContext;
 import org.thymeleaf.templateresolver.ServletContextTemplateResolver;
 
+import javax.servlet.Servlet;
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
@@ -11,8 +12,8 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-@WebServlet("/Connexion")
-public class Page6SeConnecterServlet extends HttpServlet{
+@WebServlet("/SeConnecter")
+public class Page6SeConnecterServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -26,7 +27,11 @@ public class Page6SeConnecterServlet extends HttpServlet{
         TemplateEngine templateEngine = new TemplateEngine();
         templateEngine.setTemplateResolver(templateResolver);
 
-        templateEngine.process("Page6.SeConnecter", context, resp.getWriter());
+        if (req.getSession().getAttribute("utilisateur") == null) {
+            templateEngine.process("Page6.SeConnecter", new WebContext(req, resp, getServletContext()), resp.getWriter());
+        } else {
+            resp.sendRedirect("Administration");
+        }
     }
 }
 

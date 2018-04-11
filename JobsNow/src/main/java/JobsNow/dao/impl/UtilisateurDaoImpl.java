@@ -35,4 +35,24 @@ public class UtilisateurDaoImpl implements UtilisateurDao {
         }
         return null;
     }
+
+    public boolean seConnecter(Utilisateur utilisateur){
+        String query = "SELECT * FROM utilisateur WHERE email=? AND mdp=?";
+        boolean res=false;
+        try (Connection connection = DataSourceProvider.getDataSource().getConnection();
+             PreparedStatement statement = connection.prepareStatement(query)) {
+            statement.setString(1, utilisateur.getEmail());
+            statement.setString(2, utilisateur.getMdp());
+            try (ResultSet rs = statement.executeQuery()) {
+                if (rs.next()) {
+                    res = true;
+                } else {
+                    res = false;
+                }
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+      return res;
+    }
 }

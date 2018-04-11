@@ -70,4 +70,15 @@ public class UtilisateurDaoTestCase {
             }
         }
     }
+
+    @Test
+    public void shouldConnecterUtilisateur() throws Exception{
+        // GIVEN
+        Utilisateur newUtilisateur = new Utilisateur(null, "Mercier", "Hugo", Date.valueOf("1996-12-18"),"117 rue Canteleu", "0613712379", "m.m@hei.yncrea.fr", "0000", 0);
+        // WHEN
+        Utilisateur createdUtilisateur = utilisateurDao.addUtilisateur(newUtilisateur);
+        boolean r = utilisateurDao.seConnecter(newUtilisateur);
+        //THEN
+        assertThat(r).isEqualTo(true);
+    }
 }

@@ -39,7 +39,7 @@ public class AnnonceDaoTestCase {
     @Test
     public void shouldAddAnnonce() throws Exception {
         // GIVEN
-        Annonce newAnnonce = new Annonce(null, "Serveur", "serveur pour le bar La faluche le mercredi soir et jeudi soir", Date.valueOf("2018-05-05"), "Lille", 0, "Pas de tenue particulière", 15.00);
+        Annonce newAnnonce = new Annonce(null, "Serveur", "serveur pour le bar La faluche le mercredi soir et jeudi soir", Date.valueOf("2018-05-05"), "Lille", "non", "Pas de tenue particulière", 15.00);
         // WHEN
         Annonce createdAnnonce = annonceDao.addAnnonce(newAnnonce);
         // THEN
