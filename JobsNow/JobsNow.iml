@@ -59,6 +59,5 @@
     <orderEntry type="library" name="Maven: com.sun.jersey:jersey-client:1.19.3" level="project" />
     <orderEntry type="library" name="Maven: com.sun.jersey.contribs:jersey-multipart:1.19.3" level="project" />
     <orderEntry type="library" name="Maven: org.jvnet.mimepull:mimepull:1.9.3" level="project" />
-    <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:unknown" level="project" />
   </component>
 </module>
