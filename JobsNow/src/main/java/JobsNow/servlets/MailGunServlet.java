@@ -38,7 +38,7 @@ public class MailGunServlet extends HttpServlet {
         formData.add("from", "Mailgun User <mailgun@sandbox56f7b4fd82484d9391dc30625de6a34e.mailgun.org>");
         formData.add("to", "maxence.mezin@hei.yncrea.fr");
         formData.add("subject", "Référence de l'annonce " + subject);
-        formData.add("text", "Nom : " + nom + "\nPrénom : " + prenom + "\nTéléphone : " + telephone);
+        formData.add("text", "Nom : " + nom + "\nPrénom : " + prenom + "\nTéléphone : " + telephone + "\nEmail : " + email);
         return webResource.type(MediaType.APPLICATION_FORM_URLENCODED).
                 post(ClientResponse.class, formData);
     }
