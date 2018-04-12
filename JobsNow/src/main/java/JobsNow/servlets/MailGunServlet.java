@@ -35,7 +35,7 @@ public class MailGunServlet extends HttpServlet {
         client.addFilter(new HTTPBasicAuthFilter("api", "key-d1fdc746c3d6ebd64bdaa9aad8870941"));
         WebResource webResource = client.resource("https://api.mailgun.net/v3/sandbox56f7b4fd82484d9391dc30625de6a34e.mailgun.org/messages");
         MultivaluedMapImpl formData = new MultivaluedMapImpl();
-        formData.add("from", email);
+        formData.add("from", "<"+email+">");
         formData.add("to", "maxence.mezin@hei.yncrea.fr");
         formData.add("subject", "Référence de l'annonce " + subject);
         formData.add("text", "Nom : " + nom + "\nPrénom : " + prenom + "\nTéléphone : " + telephone);
