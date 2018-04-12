@@ -19,7 +19,7 @@ import java.io.IOException;
 public class MailGunServlet extends HttpServlet {
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
         String subject = req.getParameter("subject");
         String email = req.getParameter("email");
         String telephone = req.getParameter("telephone");
@@ -37,10 +37,9 @@ public class MailGunServlet extends HttpServlet {
         MultivaluedMapImpl formData = new MultivaluedMapImpl();
         formData.add("from", "Mailgun User <mailgun@sandbox56f7b4fd82484d9391dc30625de6a34e.mailgun.org>");
         formData.add("to", "maxence.mezin@hei.yncrea.fr");
-        formData.add("subject", "Référence de l'annonce " + subject);
-        formData.add("text", "Nom : " + nom + "\nPrénom : " + prenom + "\nTéléphone : " + telephone + "\nEmail : " + email);
-        return webResource.type(MediaType.APPLICATION_FORM_URLENCODED).
-                post(ClientResponse.class, formData);
+        formData.add("subject", "Référence de l'annonce "+subject);
+        formData.add("text", "Nom : "+nom+"\nPrénom : "+prenom+"\nTéléphone : "+telephone+"\nEmail : "+email);
+        return webResource.type(MediaType.APPLICATION_FORM_URLENCODED).post(ClientResponse.class, formData);
     }
 
 }
