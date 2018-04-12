@@ -14,23 +14,17 @@ public class UtilisateurDaoTestCase {
     private UtilisateurDao utilisateurDao = new UtilisateurDaoImpl();
 
     @Before
-    public void initDb() throws Exception{
+    public void initDb() throws Exception {
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
              Statement stmt = connection.createStatement()) {
-            stmt.executeUpdate("DELETE FROM faire;");
-            stmt.executeUpdate("ALTER TABLE faire DROP FOREIGN KEY fk_idAnnonce;");
-            stmt.executeUpdate("ALTER TABLE faire DROP FOREIGN KEY fk_idUser;");
-            stmt.executeUpdate("TRUNCATE TABLE utilisateur;");
-            stmt.executeUpdate("TRUNCATE TABLE annonce;");
-            stmt.executeUpdate("ALTER TABLE faire ADD CONSTRAINT `fk_idUser` FOREIGN KEY (`idUser`) REFERENCES `utilisateur` (`idUser`);");
-            stmt.executeUpdate("ALTER TABLE faire ADD CONSTRAINT `fk_idAnnonce` FOREIGN KEY (`idAnnonce`) REFERENCES `annonce` (`idAnnonce`);");
+            stmt.executeUpdate("DELETE FROM utilisateur;");
+            stmt.executeUpdate("DELETE FROM annonce;");
+            stmt.executeUpdate("ALTER TABLE utilisateur AUTO_INCREMENT=0;");
+            stmt.executeUpdate("ALTER TABLE annonce AUTO_INCREMENT=0;");
             stmt.executeUpdate("INSERT INTO utilisateur(nom, prenom, dateNaissance, adresse, tel, email, mdp, admin) VALUES ('max', 'mez', '1996-11-11', '117 rue Canteleu', '0687654321', 'maxmez@hei.yncrea.fr', 0000, 1);");
             stmt.executeUpdate("INSERT INTO utilisateur(nom, prenom, dateNaissance, adresse, tel, email, mdp, admin) VALUES ('hugo', 'mercier', '1996-12-18', '117 rue Canteleu', '0612345678', 'hm@hei.yncrea.fr', 0001, 1);");
             stmt.executeUpdate("INSERT INTO annonce(titre, description, dateDebut, lieu, formation, tenue, remuneration) VALUES ('Serveurs', 'On recherche 3 serveurs pour une fête', '2018-03-08', 'Lille', 0, 'soigné', 200.00);");
             stmt.executeUpdate("INSERT INTO annonce(titre, description, dateDebut, lieu, formation, tenue, remuneration) VALUES ('Caissier', 'On recherche 2 caissiers pour un remplacement 15h/semaine', '2018-02-11', 'Mouvaux', 1, 'pas particulièrement', 113.12);");
-            stmt.executeUpdate("INSERT INTO faire(idAnnonce, idUser) VALUES (1, 1);");
-            stmt.executeUpdate("INSERT INTO faire(idAnnonce, idUser) VALUES (2, 1);");
-            stmt.executeUpdate("INSERT INTO faire(idAnnonce, idUser) VALUES (2, 2);");
         }
     }
 
