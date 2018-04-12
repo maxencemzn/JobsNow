@@ -30,7 +30,7 @@ public class MailGunServlet extends HttpServlet {
         resp.sendRedirect("Annonces");
     }
 
-    public static ClientResponse SendSimpleMessage(String subject, String email, String telephone, String prenom, String nom) {
+    public ClientResponse SendSimpleMessage(String subject, String email, String telephone, String prenom, String nom) {
         Client client = Client.create();
         client.addFilter(new HTTPBasicAuthFilter("api", "key-d1fdc746c3d6ebd64bdaa9aad8870941"));
         WebResource webResource = client.resource("https://api.mailgun.net/v3/sandbox56f7b4fd82484d9391dc30625de6a34e.mailgun.org/messages");
