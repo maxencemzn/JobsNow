@@ -20,13 +20,14 @@ public class MailGunServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws IOException {
+        ClientResponse clientResponse;
         String subject = req.getParameter("subject");
         String email = req.getParameter("email");
         String telephone = req.getParameter("telephone");
         String prenom = req.getParameter("prenom");
         String nom = req.getParameter("nom");
 
-        SendSimpleMessage(subject, email, telephone, prenom, nom);
+        clientResponse = SendSimpleMessage(subject, email, telephone, prenom, nom);
         resp.sendRedirect("Annonces");
     }
 

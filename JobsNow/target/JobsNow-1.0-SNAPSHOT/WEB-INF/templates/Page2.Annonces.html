@@ -28,18 +28,18 @@
 			<div class="divAnnonce" th:each="annonce : ${listAnnonce}">
 				<h3 th:text="${annonce.titre}"></h3>
 
-					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Numéro de l'annonce : </p>  <p style="display: inline" th:text="${annonce.idAnnonce}"></p></div>
-					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Date : </p> 				<p style="display: inline" th:text="${annonce.dateDebut}"></p></div>
-					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Lieu : </p> 				<p style="display: inline" th:text="${annonce.lieu}"></p></div>
-					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Tenue : </p>				<p style="display: inline" th:text="${annonce.tenue}"></p></div>
-					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Formation : </p>			<p style="display: inline" th:text="${annonce.formation}"></p></div>
-					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Remuneration : </p> 		<p style="display: inline" th:text="${annonce.remuneration}"></p></div>
+					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Numéro de l'annonce : </p>  	<p style="display: inline" th:text="${annonce.idAnnonce}"></p></div>
+					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Date : </p> 					<p style="display: inline" th:text="${annonce.dateDebut}"></p></div>
+					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Lieu : </p> 					<p style="display: inline" th:text="${annonce.lieu}"></p></div>
+					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Tenue : </p>					<p style="display: inline" th:text="${annonce.tenue}"></p></div>
+					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Formation : </p>				<p style="display: inline" th:text="${annonce.formation}"></p></div>
+					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Remuneration : </p> 			<p style="display: inline" th:text="${annonce.remuneration}"></p></div>
 					<div style="margin-top: 1em; margin-bottom: 1em"><p style="display: inline">Description : </p> 			<p style="display: inline" th:text="${annonce.description}"></p></div>
 				<div style="margin-top: 1em; margin-bottom: 1em"><form action="mailgun" method="post" enctype="text/plain">
 					<input name="subject" type="hidden" th:value="${annonce.idAnnonce}+'+'+${annonce.titre}+'+'+${annonce.dateDebut}">
 					<div type="body">
 						<input name="nom" type="text" required placeholder="Nom" value="" class="input">
-						<input name="pénom" type="text" required placeholder="Prénom" value="" class="input">
+						<input name="prenom" type="text" required placeholder="Prénom" value="" class="input">
 						<input name="email" type="email" required placeholder="Email" value="" pattern=".+yncrea.fr" class="input">
 						<input name="telephone" type="text" required placeholder="Numéro de téléphone" value="" class="input">
 						<input type="submit" name="postuler" value="Je postule" class="inputButton">

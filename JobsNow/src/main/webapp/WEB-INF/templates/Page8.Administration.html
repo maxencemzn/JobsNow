@@ -54,6 +54,19 @@
         </form>
     </div>
 
+    <!-- Ajouter un administrateur -->
+    <div class="divFormulaire">
+        <h1>Ajouter un admninistrateur</h1>
+        <form class="formulaire" method="post" action="addUtilisateur">
+            <input type="text" name="nom" placeholder="Nom" class="input" required>
+            <input type="text" name="prenom" placeholder="Prénom" class="input" required>
+            <input type="text" name="tel" placeholder="Numéro de téléphone" class="input" required>
+            <input type="email" name="email" placeholder="Email Yncréa" class="input" pattern=".+yncrea.fr" title="Merci de fournir uniquement une adresse Yncrea" required>
+            <input type="password" name="mdp" placeholder="Mot de passe" class="input" required>
+            <input type="submit" name="inscription" placeholder="S'inscrire" class="inputButton">
+        </form>
+    </div>
+
 </div>
 
 <!-- Footer -->

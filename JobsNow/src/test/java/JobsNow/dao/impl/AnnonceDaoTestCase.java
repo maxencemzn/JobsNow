@@ -23,8 +23,8 @@ public class AnnonceDaoTestCase {
             stmt.executeUpdate("DELETE FROM annonce;");
             stmt.executeUpdate("ALTER TABLE utilisateur AUTO_INCREMENT=0;");
             stmt.executeUpdate("ALTER TABLE annonce AUTO_INCREMENT=0;");
-            stmt.executeUpdate("INSERT INTO utilisateur(nom, prenom, dateNaissance, adresse, tel, email, mdp, admin) VALUES ('max', 'mez', '1996-11-11', '117 rue Canteleu', '0687654321', 'maxmez@hei.yncrea.fr', 0000, 1);");
-            stmt.executeUpdate("INSERT INTO utilisateur(nom, prenom, dateNaissance, adresse, tel, email, mdp, admin) VALUES ('hugo', 'mercier', '1996-12-18', '117 rue Canteleu', '0612345678', 'hm@hei.yncrea.fr', 0001, 1);");
+            stmt.executeUpdate("INSERT INTO utilisateur(nom, prenom, tel, email, mdp) VALUES ('max', 'mez', '0687654321', 'maxmez@hei.yncrea.fr', 0000);");
+            stmt.executeUpdate("INSERT INTO utilisateur(nom, prenom, tel, email, mdp) VALUES ('hugo', 'mercier', '0612345678', 'hm@hei.yncrea.fr', 0001);");
             stmt.executeUpdate("INSERT INTO annonce(titre, description, dateDebut, lieu, formation, tenue, remuneration) VALUES ('Serveurs', 'On recherche 3 serveurs pour une fête', '2018-03-08', 'Lille', 'non', 'soigné', 200.00);");
             stmt.executeUpdate("INSERT INTO annonce(titre, description, dateDebut, lieu, formation, tenue, remuneration) VALUES ('Caissier', 'On recherche 2 caissiers pour un remplacement 15h/semaine', '2018-02-11', 'Mouvaux', 'oui', 'pas particulièrement', 113.12);");
         }

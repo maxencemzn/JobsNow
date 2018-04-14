@@ -61,7 +61,7 @@ public class ConnexionServlet extends HttpServlet {
         while (mdp.length() < 32) {
             mdp = "0" + mdp;
         }
-        Utilisateur utilisateur = new Utilisateur(null, null, null, null, null, null, email, mdp, null);
+        Utilisateur utilisateur = new Utilisateur(null, null,  null, null, email, mdp);
 
         if (UtilisateurService.getInstance().SeConnecter(utilisateur)) {
             req.getSession().setAttribute("utilisateur", email);

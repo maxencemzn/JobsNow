@@ -21,12 +21,9 @@ CREATE TABLE `utilisateur` (
   `idUser` int(11) NOT NULL AUTO_INCREMENT,
   `nom` varchar(50) NOT NULL,
   `prenom` varchar(50) NOT NULL,
-  `dateNaissance` date NOT NULL,
-  `adresse` varchar(50) NOT NULL,
   `tel` char(10) NOT NULL,
   `email` varchar(50) NOT NULL,
   `mdp` varchar(100) NOT NULL,
-  `admin` tinyint NOT NULL,
   
   PRIMARY KEY (`idUser`),
   UNIQUE KEY `idUser_UNIQUE` (`idUser`)
