@@ -502,6 +502,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <updated>1519234256012</updated>
       <workItem from="1519234260051" duration="843000" />
       <workItem from="1519235126011" duration="1453000" />
@@ -518,6 +519,11 @@
       <workItem from="1523485663691" duration="1973000" />
       <workItem from="1523543730356" duration="2690000" />
       <workItem from="1523546879497" duration="612000" />
+=======
+      <updated>1523702103274</updated>
+      <workItem from="1523702105055" duration="1606000" />
+      <workItem from="1523703813118" duration="3206000" />
+>>>>>>> 386716fdc72924b2a9d5a411a23d7e38e3794f1b
 =======
       <updated>1523702103274</updated>
       <workItem from="1523702105055" duration="1606000" />
@@ -560,6 +566,7 @@
   </component>
   <component name="TimeTrackingManager">
 <<<<<<< HEAD
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="52582000" />
   </component>
   <component name="ToolWindowManager">
@@ -568,6 +575,11 @@
     <option name="totallyTimeSpent" value="4812000" />
   </component>
   <component name="ToolWindowManager">
+=======
+    <option name="totallyTimeSpent" value="4812000" />
+  </component>
+  <component name="ToolWindowManager">
+>>>>>>> 386716fdc72924b2a9d5a411a23d7e38e3794f1b
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
 >>>>>>> 386716fdc72924b2a9d5a411a23d7e38e3794f1b
