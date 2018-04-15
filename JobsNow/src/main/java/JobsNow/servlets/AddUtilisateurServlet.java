@@ -20,8 +20,6 @@ public class AddUtilisateurServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String nom = req.getParameter("nom");
         String prenom = req.getParameter("prenom");
-        Date dateNaissance = Date.valueOf(req.getParameter("dateNaissance"));
-        String adresse = req.getParameter("adresse");
         String tel = req.getParameter("tel");
         String email = req.getParameter("email");
         String mdpph = req.getParameter("mdp");
@@ -40,7 +38,7 @@ public class AddUtilisateurServlet extends HttpServlet {
             mdp = "0" + mdp;
         }
 
-        Utilisateur utilisateur = new Utilisateur(null, nom, prenom, dateNaissance, adresse, tel, email, mdp, 0);
+        Utilisateur utilisateur = new Utilisateur(null, nom, prenom, tel, email, mdp);
         UtilisateurService.getInstance().addUtilisateur(utilisateur);
 
         resp.sendRedirect("JobsNow");

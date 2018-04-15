@@ -66,17 +66,9 @@ public class AnnonceDaoImpl implements AnnonceDao {
 
     @Override
     public void delAnnonce(Integer idAnnonce){
-        String queryF = "DELETE FROM faire WHERE idAnnonce=?";
-        String queryA = "DELETE FROM annonce WHERE idAnnonce=?";
+        String query = "DELETE FROM annonce WHERE idAnnonce=?";
         try (Connection connection = DataSourceProvider.getDataSource().getConnection();
-             PreparedStatement statement = connection.prepareStatement(queryF)){
-            statement.setInt(1, idAnnonce);
-            statement.executeUpdate();
-        } catch (SQLException e) {
-            e.printStackTrace();
-        }
-        try (Connection connection = DataSourceProvider.getDataSource().getConnection();
-             PreparedStatement statement = connection.prepareStatement(queryA)){
+             PreparedStatement statement = connection.prepareStatement(query)){
             statement.setInt(1, idAnnonce);
             statement.executeUpdate();
         } catch (SQLException e) {
