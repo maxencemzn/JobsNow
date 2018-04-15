@@ -166,8 +166,9 @@
         }
 
         .logoMembre {
-            width: 150px;
-            height: 150px;
+            max-width: 98%;
+            max-height: 98%;
+            border-radius: 5px;
         }
 
 /* CSS PAGE 2 : ANNONCES */
