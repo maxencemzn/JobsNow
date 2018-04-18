@@ -25,6 +25,8 @@ public class Annonce {
 
     }
 
+    public Annonce(){}
+
     public void setIdAnnonce(Integer idAnnonce) {
         this.idAnnonce = idAnnonce;
     }

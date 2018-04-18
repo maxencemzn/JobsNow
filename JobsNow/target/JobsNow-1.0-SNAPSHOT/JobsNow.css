@@ -107,9 +107,9 @@
             border-radius: 5px;
             color: white;
             background-color: #F9B129;
-            border : none;
+            border : 1px;
             width: 100px;
-            padding: 8px;
+            padding: 5px;
         }
 
 /* CSS PAGE 1 : ACCUEIL */
